@@ -39,7 +39,7 @@ version = 0.1
 # comma separated e.g. requirements = sqlite3,kivy
 #requirements = python3,kivy,camera4kivy,gestures4kivy,numpy,tflite-runtime,kivymd,pandas,autopoint,gettext
 #requirements = python3,kivy,camera4kivy,gestures4kivy,numpy,tflite-runtime,kivymd,requests,urllib3,chardet,idna,kivy_garden.graph,audiostream
-requirements = python3==3.9.12,kivy,camera4kivy,gestures4kivy,numpy,tflite-runtime,kivymd,requests,urllib3,chardet,idna,kivy_garden.graph,audiostream,hostpython3==3.9.12,openssl,ffmpeg-python,future,ffmpeg,ffpyplayer,ffpyplayer_codecs,pyjnius
+requirements = python3==3.9.12,kivy,camera4kivy,gestures4kivy,numpy,tflite-runtime,kivymd,requests,urllib3,chardet,idna,kivy_garden.graph,audiostream,hostpython3==3.9.12,pyjnius
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -106,7 +106,7 @@ android.permissions = INTERNET,RECORD_AUDIO,WAKE_LOCK,READ_EXTERNAL_STORAGE,WRIT
 android.api = 32
 
 # (int) Minimum API your APK will support.
-#android.minapi = 21
+android.minapi = 25
 
 # (int) Android SDK version to use
 #android.sdk = 20

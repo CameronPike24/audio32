@@ -18,6 +18,7 @@ import ffmpeg
 import time
 from android import mActivity
 from android.storage import primary_external_storage_path
+from jnius import *
 '''
 import moviepy.editor as mp
 clip = mp.VideoFileClip('vid.mp4')
